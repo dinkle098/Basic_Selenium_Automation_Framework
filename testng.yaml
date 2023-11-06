@@ -1,0 +1,9 @@
+name: Suite
+configFailurePolicy: skip
+listeners:
+  - reusableComponents.ListenersImplementation
+tests:
+  - name: Test
+  classes:
+    - Login.ErrorTests
+

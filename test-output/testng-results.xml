@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-06T14:27:30 IST" name="Default suite" finished-at="2023-11-06T14:28:14 IST" duration-ms="44723">
+    <groups>
+    </groups>
+    <test started-at="2023-11-06T14:27:30 IST" name="Default test" finished-at="2023-11-06T14:28:14 IST" duration-ms="44723">
+      <class name="DocumentsPage.DocumentsPageTest">
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:DocumentsPage.DocumentsPageTest@62923ee6]" started-at="2023-11-06T14:27:30 IST" name="setupMethod" finished-at="2023-11-06T14:27:38 IST" duration-ms="8628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="VerifyLeftPane(java.lang.Object)[pri:0, instance:DocumentsPage.DocumentsPageTest@62923ee6]" started-at="2023-11-06T14:27:38 IST" name="VerifyLeftPane" data-provider="DocumentsPage" finished-at="2023-11-06T14:28:14 IST" duration-ms="36026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Organization Name=ACME QAMS Services, HomePageTabs=All, Permission=Public, Sr. No.=1, Workspace Name=UAT_PI_2023_Q4_2_Week 1, Roles=Client Admin,Reviewer, LeftPaneOptions=FOLDERS}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLeftPane -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:DocumentsPage.DocumentsPageTest@62923ee6]" started-at="2023-11-06T14:28:14 IST" name="cleanup" finished-at="2023-11-06T14:28:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- DocumentsPage.DocumentsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
